@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn Post Scraper",
+    "version": "1.0",
+    "description": "Extract LinkedIn Post Scraper ",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "linkedin.png",
+            "48": "linkedin.png",
+            "128": "linkedin.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.linkein.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
