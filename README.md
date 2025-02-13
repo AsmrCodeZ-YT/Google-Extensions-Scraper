@@ -1,8 +1,10 @@
 # Chrome Extensions by TheCodeZ
-
 ## About
-I create multiple Chrome extensions that include both raw source files and pre-built `.crx` files for easier installation. You can download and use them as needed. `Note: After installation Read Available Extensions Section.`
+I create multiple Chrome extensions that include both raw source files and pre-built `.crx` files for easier installation. You can download and use them as needed.
 
+ `Note: After installation Read Available Extensions Section.`
+
+![](src/CEX.png)
 ## Installation
 You have two options to install these extensions:
 
